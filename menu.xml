@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+  <category name="Yeast">
+    <item>
+      <listing>Whole Wheat Bread</listing>
+      <price>3.10</price>
+    </item>
+    <item>
+      <listing>Brown Bread</listing>
+      <price>3.50</price>
+    </item>
+    <item decaf="true">
+      <listing>Baguette</listing>
+      <price>3.20</price>
+    </item>
+  </category>
+  <category name="Sourdough">
+    <item>
+      <listing>Sourdough Bread</listing>
+      <price>4.50</price>
+    </item>
+    <item>
+      <listing>Pumpernickel</listing>
+      <price>5.00</price>
+    </item>
+  </category>
+  <category name="Flatbread">
+    <item>
+      <listing>Pita Bread</listing>
+      <price>4.00</price>
+    </item>
+    <item>
+      <listing>Naan</listing>
+      <price>3.80</price>
+    </item>
+    <item decaf="true">
+      <listing>Tortilla</listing>
+      <price>4.10</price>
+    </item>
+  </category>
+</menu>
