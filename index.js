@@ -1,10 +1,13 @@
 const  http = require('http'), //HTTP Server
+       path = require('path'),
        express = require('express'), //Handling HTTP requests and routing
        fs = require('fs'),  //File System functionalities
        xmlParse = require('xslt-processor').xmlParse, //XML handling
        xsltProcess = require('xslt-processor').xsltProcess, //XSLT handling
        router = express(), //Init our router
        server = http.createServer(router); // Init our server
+
+router.use(express.static(path.resolve(__dirname, 'viewsi')));
 
 router.get('/', function(req, res) {
 
