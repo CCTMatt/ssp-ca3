@@ -7,7 +7,9 @@ const  http = require('http'), //HTTP Server
        router = express(), //Init our router
        server = http.createServer(router); // Init our server
 
-router.use(express.static(path.resolve(__dirname, 'viewsi')));
+router.use(express.static(path.resolve(__dirname, 'views')));
+router.use(express.urlencoded({extended: true}));
+router.use(express.json());
 
 router.get('/', function(req, res) {
 
