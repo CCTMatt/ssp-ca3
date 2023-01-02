@@ -3,39 +3,71 @@
   <category name="Yeast">
     <item>
       <listing>Whole Wheat Bread</listing>
-      <price>3.10</price>
+      <price>€3.10</price>
     </item>
     <item>
       <listing>Brown Bread</listing>
-      <price>3.50</price>
+      <price>€2.60</price>
     </item>
     <item decaf="true">
       <listing>Baguette</listing>
-      <price>3.20</price>
+      <price>€2.20</price>
     </item>
   </category>
   <category name="Sourdough">
     <item>
       <listing>Sourdough Bread</listing>
-      <price>4.50</price>
+      <price>€2.15</price>
     </item>
     <item>
       <listing>Pumpernickel</listing>
-      <price>5.00</price>
+      <price>€2.50</price>
+    </item>
+    <item>
+      <listing>Danish Rye</listing>
+      <price>€2.60</price>
     </item>
   </category>
   <category name="Flatbread">
     <item>
       <listing>Pita Bread</listing>
-      <price>4.00</price>
+      <price>€4.00</price>
     </item>
     <item>
       <listing>Naan</listing>
-      <price>3.80</price>
+      <price>€3.80</price>
     </item>
-    <item decaf="true">
+    <item>
       <listing>Tortilla</listing>
-      <price>4.10</price>
+      <price>€4.10</price>
+    </item>
+  </category>
+  <category name="Baked Snack/Cookie">
+    <item>
+      <listing>Gingerbread Man</listing>
+      <price>€2.60</price>
+    </item>
+    <item>
+      <listing>Chocolate Chip Cookie</listing>
+      <price>€1.90</price>
+    </item>
+    <item>
+      <listing>Shortbread "Parliament" Cookie (Multiple)</listing>
+      <price>€4.85</price>
+    </item>
+  </category>
+  <category name="Cake">
+    <item>
+      <listing>Chocolate Cake</listing>
+      <price>€14.00</price>
+    </item>
+    <item>
+      <listing>Carrot Cake</listing>
+      <price>€4.80</price>
+    </item>
+    <item>
+      <listing>Red Velvet Cake</listing>
+      <price>€60.00</price>
     </item>
   </category>
 </menu>
