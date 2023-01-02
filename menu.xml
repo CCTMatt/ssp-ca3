@@ -9,7 +9,7 @@
       <listing>Brown Bread</listing>
       <price>€2.60</price>
     </item>
-    <item decaf="true">
+    <item>
       <listing>Baguette</listing>
       <price>€2.20</price>
     </item>
